@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.grid-container {
+  display: flex;
+  width: 100%;
+}
+/*does not do the 20% if its above this thing but under it does the thing */
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  min-height: 100vh;
+}
+
+.column > [class*="box-"] { /* attribute selector [] with wildcard * */
+  margin: 5px;
+}
+
+.box-1-1 {
+  background-color: aqua;
+  height: 20%;
+}
+
+.box-2-1 {
+  background-color: blue;
+  height: 40%;
+}
+
+.box-3-1 {
+  background-color: brown;
+  height: 20%;
+}
+
+.box-3-2 {
+  background-color: blueviolet;
+  height: 20%;
+}
+.box-3-3 {
+  background-color: rgb(237, 27, 27);
+  height: 20%;
+  
+}
+.box-3-4 {
+  background-color: rgb(250, 20, 200);
+  height: 20%;
+}
+.box-3-5 {
+  background-color: aquamarine;
+  height: 20%;
+}
+
+.box-4-1 {
+  background-color: chocolate;
+  height: 40%;
+}
+
+.box-4-2 {
+  background-color: darkgreen;
+  height: 40%;
+}
+
+.box-5-1 {
+  background-color: firebrick;
+  height: 20%;
+}
+
+.box-5-2 {
+  background-color: mediumorchid;
+  height: 40%;
+}
+
+.box-5-3 {
+  background-color: palegreen;
+  height: 20%;
+}
