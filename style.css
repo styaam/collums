@@ -7,7 +7,7 @@
   display: flex;
   width: 100%;
 }
-/*does not do the 20% if its above this thing but under it does the thing */
+
 
 .column {
   display: flex;
